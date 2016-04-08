@@ -1,10 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
-
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Psonizw About</title>
+<title>Red Mod - free website template</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <!--
@@ -17,9 +15,7 @@ http://www.tooplate.com/view/2069-red-mod
 <script type="text/javascript" src="js/jquery-ui.min.js" ></script>
 <script type="text/javascript">
 	$(document).ready(function(){
-		$("#featured > ul").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 
-
-5000, true);
+		$("#featured > ul").tabs({fx:{opacity: "toggle"}}).tabs("rotate", 5000, true);
 	});
 </script>
 
@@ -28,9 +24,7 @@ http://www.tooplate.com/view/2069-red-mod
 <script type="text/javascript" src="js/ddsmoothmenu.js">
 
 /***********************************************
-* Smooth Navigational Menu- (c) Dynamic Drive DHTML code library 
-
-(www.dynamicdrive.com)
+* Smooth Navigational Menu- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
 * This notice MUST stay intact for legal use
 * Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
 ***********************************************/
@@ -44,9 +38,7 @@ ddsmoothmenu.init({
 	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
 	classname: 'ddsmoothmenu', //class added to menu's outer DIV
 	//customtheme: ["#1c5a80", "#18374a"],
-	contentsource: "markup" //"markup" or ["container_id", 
-
-"path_to_menu_file"]
+	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
 })
 
 </script>
@@ -61,31 +53,17 @@ ddsmoothmenu.init({
 
 <div id="tooplate_header_wrapper">
 	<div id="tooplate_header">
-    	<div id="site_title"><a href="index.html">We buy for you, what you cannot 
-
-</a></div>
+    	<div id="site_title"><a href="index.html">Free Website Template</a></div>
         <div id="tooplate_search">
             <form action="#" method="get">
-              <input type="text" value=" " name="keyword" id="keyword" 
-
-title="keyword" onfocus="clearText(this)" onblur="clearText(this)" 
-
-class="txt_field" />
-              <input type="submit" name="Search" value=" " alt="Search" 
-
-id="searchbutton" title="Search" class="sub_btn"  />
+              <input type="text" value=" " name="keyword" id="keyword" title="keyword" onfocus="clearText(this)" onblur="clearText(this)" class="txt_field" />
+              <input type="submit" name="Search" value=" " alt="Search" id="searchbutton" title="Search" class="sub_btn"  />
             </form>
             <ul id="social">
                 <li><a href="#"><img src="images/rss.png" alt="RSS" /></a></li>
-                <li><a href="#"><img src="images/facebook.png" alt="Facebook" 
-
-/></a></li>
-                <li><a href="#"><img src="images/twitter.png" alt="Twitter" 
-
-/></a></li>
-				<li><a href="#"><img src="images/linkedin.png" 
-
-alt="Linkedin" /></a></li>
+                <li><a href="#"><img src="images/facebook.png" alt="Facebook" /></a></li>
+                <li><a href="#"><img src="images/twitter.png" alt="Twitter" /></a></li>
+				<li><a href="#"><img src="images/linkedin.png" alt="Linkedin" /></a></li>
             </ul>
         </div>
         <ul id="top_menu">
@@ -95,151 +73,140 @@ alt="Linkedin" /></a></li>
         
     </div> <!-- END of header -->
 </div> <!-- END of header wrapper -->
+    
+    <div id="slider_wrapper" >
+            <div class="roundabout-example">
+                <ul id="slider">
+                    <li>
+						<a href="#"><img src="images/slider/01.jpg" alt="Image" /></a>
+                    </li>
+                    <li>
+						<a href="#"><img src="images/slider/02.jpg" alt="Image" /></a>
+                    </li>
+                    <li>
+						<a href="#"><img src="images/slider/03.jpg" alt="Image" /></a>
+                    </li>
+                    <li>
+						<a href="#"><img src="images/slider/04.jpg" alt="Image" /></a>
+                    </li>
+                    <li>
+						<a href="#"><img src="images/slider/05.jpg" alt="Image" /></a>
+                    </li>
+                </ul>
+                
+				<script type="text/javascript" src="js/jquery.roundabout.js"></script>
+                <script type="text/javascript">
+
+                    $(document).ready(function() {
+						// top example
+						$('.roundabout-example ul').roundabout({
+							'easing': 'easeOutExpo',
+							'duration': 500,
+							'btnNext': '.next',
+							'btnPrev': '.previous'
+						});
+						
+						$(window).resize(function() {
+							$('.roundabout-example ul').roundabout_animateToBearing($.roundabout_getBearing($('.roundabout-example ul')));
+						})
+					});
+
+                </script>
+		
+            </div>
+
+
+	</div> <!-- END of slider -->
 
 <div id="tooplate_wrapper">
 
          <div id="tooplate_menu" class="ddsmoothmenu">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="selected">Home</a></li>
                 <li><a href="news.html">News</a>
                     <ul>
                         <li><a href="news.html">Category One</a></li>
                         <li><a href="news.html">Category Two</a></li>
                         <li><a href="news.html">Category Three</a></li>
                         <li><a href="news.html">Category Four</a></li>
-                        <li><a href="news.html">Category Five</a></li>             
-
-                                                           
-                  </ul>
+                        <li><a href="news.html">Category Five</a></li>                                                                        
+                  	</ul>
                 </li>
                 <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="about.html" class="selected">About</a></li>           
-
-     
-                <li class="last"><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>                
+                <li class="last"><a href="contact.html" class="last">Contact</a></li>
             </ul>
             <br style="clear: left" />
         </div> <!-- end of tooplate_menu -->
 
-    <div id="tooplate_main"> <div id="tooplate_main_bottom"></div>
-    	
-         <div class="content_wrapper content_mb_60">
-            <div class="col_2">
-                <h2>Τι προσφέρει το Psonizw.eu</h2>
-                <p><em>Μέσω της σελίδας μας μπορείτε να κάνετε τις αγορές σας στο 
-
-internet ακόμη και εάν δεν διαθέτετε πιστωτική, χρεωστική η οποιαδήποτε άλλη 
-
-κάρτα. Τι μπορείτε να αγοράσετε :</em></p>
-                <ul class="list_bullet">
-                	<li class="col_4">eBay</li>
-                    <li class="col_4">Paypal</li>
-                    <li class="col_4">Visa</li>
-                    <li class="col_4">Mastercard</li>
-                    <li class="col_4">American Express</li>
-                    <li class="col_4">Paysafe</li>
-                    <li class="col_4">Ucash</li>
-                    <li class="col_4">Paymentwall</li>
-                    <li class="col_4">Skrill</li>
-                    <li class="col_4">Bitcoin</li>
-                    <li class="col_4">UnionPay </li>
-                    <li class="col_4">WePay</li>
-                    <li class="col_4">2CheckOut</li>
-                    <li class="col_4">Authorize.Net</li>
-                    <li class="col_4">Intuit</li>
-                    <li class="col_4">ProPay</li>
-                    <li class="col_4">Click2Sell</li>
-                    <li class="col_4">Dwolla</li>
-                    <li class="col_4">Braintree</li>
-                    <li class="col_4">ClickBank</li>
-                    <li class="col_4">Stripe</li>
-                </ul>
-			</div>
-            
-            <div class="col_2 no_margin_right">
-                <h2>Curabitur Sollicitudin</h2>
-           	  <p><em>Cras mi lectus, tempus vitae venenatis vitae, lobortis in 
-
-felis. Duis dapibus, turpis vitae suscipit sagittis, tellus turpis porttitor orci, 
-
-ut lobortis urna quam at augue.</em></p>
-                <p> Praesent eu neque lectus, ut congue purus. Donec pellentesque, 
-
-erat vitae tempus volutpat, augue diam pulvinar orci, eget tincidunt felis nibh 
-
-vel orci. Maecenas semper mi neque. Donec laoreet lorem quis justo auctor mollis. 
-
-Proin molestie.</p>
-                <a href="#" class="more">More</a>
-            </div>	
+    <div id="tooplate_main"> 
+    	<div id="tooplate_main_bottom"></div>
+    	<div class="content_wrapper content_mb_60">
+        	<div class="col_3 service_home">
+            	<img src="images/onebit_02.png" alt="Image" />
+                <h2>FREE TEMPLATE</h2>
+                <p>Red Mod is free web template for everyone. Visit <a href="http://www.tooplate.com/free-templates" target="_blank">tooplate</a> for more HTML templates to download and use for your websites. Thank you.</p>
+            </div>
+            <div class="col_3 service_home">
+            	<img src="images/onebit_05.png" alt="Image" />
+                <h2>HTML CSS</h2>
+                <p><a href="http://www.tooplate.com/contact" target="_parent">Contact</a> us for any question or feedback. Nam lacinia dolor nec tortor adipiscing nec pretium sapien convallis. Nulla eu velit nisi, et imperdiet.</p>
+            </div>
+            <div class="col_3 no_margin_right service_home">
+            	<img src="images/onebit_15.png" alt="Image" />
+                <h2>WEB DESIGN</h2>
+                <p> Suspendisse neque enim, hendrerit eu auctor pharetra, sodales non leo. Sed malesuada pellentesque.  Sed at risus dui. Ut imperdiet libero.</p>
+            </div>
         </div>
         <div class="content_wrapper content_mb_60">
-	        <div class="col_3">
-                <h2>Pellent consec </h2>
-                <p> Suspendisse potenti. Aenean varius tristique augue eget 
-
-imperdiet. Quisque dapibus velit vel risus ultrices in lacinia quam pulvinar. 
-
-Aliquam id justo magna. Donec fermentum molestie odio, ac rutrum lacus molestie 
-
-sed. Maecenas eu enim id ipsum auctor blandit a ac felis.</p>
-            </div>	
-	        <div class="col_3">
-                <h2>Etiam non dui</h2>
-                <p> Suspendisse placerat quam diam, vitae tempor sem. Proin 
-
-malesuada metus sem, pretium auctor ipsum. Nam eget sem justo, vel faucibus nisi. 
-
-Cras felis ante, facilisis vel dictum at, feugiat quis diam dictum egestas, magna  
-
- eros, vel pharetra purus  eu nisi. </p>
-            </div>	
-        	<div class="col_3 no_margin_right">
-                <h2>Ornare Nibh Conva</h2>
-                <p> Praesent eu neque lectus, ut congue purus. Donec pellentesque, 
-
-erat vitae tempus volutpat, augue diam pulvinar orci, eget tincidunt felis nibh 
-
-vel orci. Maecenas semper mi neque. Donec laoreet lorem quis justo auctor mollis. 
-
-Proin molestie.</p>
-            </div>	
-        </div>
-        <div class="content_wrapper">
-        	<div class="col_4">
-            	<img src="images/tooplate_image_04.jpg" alt="image" 
-
-class="img_border img_border_s img_nom" />
-                <p>Maecenas sed quam vitae velit commodo ultricies. Ut vitae 
-
-luctus mi ligula dolor aliquam non orci. <a href="#">More...</a></p>
+        	<div class="col_3 service_home">
+            	<img src="images/onebit_43.png" alt="Image" />
+                <h2>Suspendisse dictum</h2>
+                <p>Credits go to <a href="http://www.wpzoom.com" target="_blank">wpzoom</a> and <a href="http://www.icojoy.com/articles/44/" target="_blank">icojoy</a> for icons. Maecenas ac varius odio. Mauris quis mauris mauris.</p>
             </div>
-            <div class="col_4">
-            	<img src="images/tooplate_image_05.jpg" alt="image" 
-
-class="img_border img_border_s img_nom" />
-                <p> Cras a orci risus. Nulla scelerisque neque  lorem feugiat 
-
-fringilla gravida id sed enim. <a href="#">More...</a></p>
+            <div class="col_3 service_home">
+            	<img src="images/onebit_20.png" alt="Image" />
+                <h2>Donec nisl orci</h2>
+                <p>Nam lacinia dolor nec tortor adipiscing nec pretium sapien convallis. Nulla eu velit nisi, et imperdiet leo.</p>
             </div>
-            <div class="col_4">
-            	<img src="images/tooplate_image_06.jpg" alt="image" 
-
-class="img_border img_border_s img_nom" />
-                <p> Suspendisse id mi sit amet leo tristique consectetur ipsum 
-
-mauris, fermentum at pulvinar vitae. <a href="#">More...</a></p>
-            </div>
-            <div class="col_4 no_margin_right">
-            	<img src="images/tooplate_image_07.jpg" alt="image" 
-
-class="img_border img_border_s img_nom" />
-                <p>Morbi diam est,  et egestas a, aliquet ac quam. Donec vitae 
-
-augue ut sem cursus aliquet  vel quam. <a href="#">More...</a></p>
+            <div class="col_3 no_margin_right service_home">
+            	<img src="images/onebit_44.png" alt="Image" />
+                <h2>Curabitur eu lacus</h2>
+                <p>Suspendisse neque enim, hendrerit eu auctor pharetra, sodales non leo. Sed malesuada pellentesque.</p>
             </div>
         </div>
-           	
+    	<div class="content_wrapper">
+            <div class="col_2">
+
+                <h2>Current News</h2>
+                <div class="news_list">
+                    <img src="images/tooplate_image_01.jpg" alt="Image"  class="img_fl img_border img_border_s" />
+                    <a href="#">Cras mi lectus tempus vitae</a>
+                    <p>Ut vitae luctus mi. Donec ligula dolor, lobortis ac porttitor sed, aliquam non orci.</p>
+                  	<div class="clear"></div>
+                </div>           
+                <div class="news_list">
+                    <img src="images/tooplate_image_02.jpg" alt="Image" class="img_fl img_border img_border_s" />
+                    <a href="#">Cras dignissim volutpat sem id</a>
+                    <p>Donec vitae augue ut sem cursus aliquet rhoncus vel quam.</p>
+                  <div class="clear"></div>
+                </div>   
+                 <div class="news_list">
+                    <img src="images/tooplate_image_03.jpg" alt="Image" class="img_fl img_border img_border_s" />
+                    <a href="#">Sed euismod dolor eu</a>
+                    <p>Aliquam erat volutpat. Vestibulum urna libero, fringilla eu faucibus nec, fringilla eget elit.</p>
+                    <div class="clear"></div>
+                </div>             
+                <div class="clear"></div>
+                <a href="#" class="more">More</a>
+            </div>	
+            <div class="col_2 no_margin_right">
+                <h2>Latest One</h2>
+                <img src="images/tooplate_image_08.jpg" alt="Images" class="img_border img_border_b img_nom" />
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar malesuada urna, rutrum vestibulum odio lobortis quis.</p>
+                <a href="#" class="more">More</a>
+            </div>
+        </div>
         <div class="clear"></div>
     </div>
 
@@ -278,9 +245,7 @@ augue ut sem cursus aliquet  vel quam. <a href="#">More...</a></p>
         </div>
         <div class="col_25 no_margin_right">
         	<h4>Twitter</h4>
-            <p>"Lorem ipsum dolor sit amet consectetur adipiscing elit <a 
-
-href="#">#Donec</a> ante nibh sagittis ut lobortis a, posuere vel sem"</p>
+            <p>"Lorem ipsum dolor sit amet consectetur adipiscing elit <a href="#">#Donec</a> ante nibh sagittis ut lobortis a, posuere vel sem"</p>
             <a href="#">Follow me on Twitter</a>
         </div>
         <div class="clear"></div>
@@ -288,7 +253,12 @@ href="#">#Donec</a> ante nibh sagittis ut lobortis a, posuere vel sem"</p>
 </div> <!-- END of tooplate_wrapper -->
 <div id="tooplate_copyright_wrapper">
     <div id="tooplate_copyright">
-        Copyright © 2048 Your Company Name 
+        Copyright © 2048 Your Company Name
+    	
+        
+        - 
+        
+        Design: <a href="http://www.tooplate.com" target="_parent">Tooplate</a>
     </div>
 </div>
 </body>
